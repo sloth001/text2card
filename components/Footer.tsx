@@ -5,6 +5,7 @@ const Footer: React.FC = () => (
     <footer className="mt-12 text-center">
         <p className="text-sm md:text-base text-gray-500">© 2024 Text2Card Card Maker. All rights reserved.</p>
         <p className="text-sm md:text-base text-gray-500 mt-2">The easiest way to create beautiful cards for your thoughts and quotes.</p>
+        {/*
         <div className="mt-4 flex justify-center space-x-6">
             <SocialLink href="https://x.com/benshandebiao" ariaLabel="Follow Text2Card Card Maker on Twitter">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
@@ -23,6 +24,7 @@ const Footer: React.FC = () => (
                 <FriendlyLink href="https://pomodiary.com/" text="PomoDiary" />
             </div>
         </div>
+        */}
     </footer>
 );
 
